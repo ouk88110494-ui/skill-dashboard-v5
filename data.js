@@ -1311,7 +1311,7 @@ window.DASHBOARD_DATA = {
             {
               text: "放行前看懂指令",
               desc: "AI 執行 git／gh 前會先列出指令徵求同意，看懂再放行。",
-              done: false,
+              done: true,
             },
             {
               text: "合併不會自動發生",
@@ -1353,27 +1353,27 @@ window.DASHBOARD_DATA = {
             {
               text: "持續整合（CI）",
               desc: "每次要合併的改動都先通過自動化驗證，一次都不漏掉。",
-              done: false,
+              done: true,
             },
             {
               text: "持續交付（CD）",
               desc: "驗證通過就自動出貨上線，中間不需要有人動手操作。",
-              done: false,
+              done: true,
             },
             {
               text: "人審與機審",
               desc: "拉取請求看意圖，CI 看事實——一個看你想做什麼，一個看有沒有壞。",
-              done: false,
+              done: true,
             },
             {
               text: "本機跑與機器跑",
               desc: "本機跑是為了你自己快，機器跑是為了讓別人能相信每次都跑過。",
-              done: false,
+              done: true,
             },
             {
               text: "能不能當一道關卡",
               desc: "沒有人知道你到底跑過沒有的檢查，當不了合併的條件。",
-              done: false,
+              done: true,
             },
             {
               text: "GitHub Actions",
@@ -1383,23 +1383,23 @@ window.DASHBOARD_DATA = {
             {
               text: "runner（雲端電腦）",
               desc: "每次開一台全新的機器替你做事，做完就把它丟掉。",
-              done: false,
+              done: true,
             },
             {
               text: "執行紀錄的三層",
               desc: "一筆紀錄、幾份工作、每份工作的幾個步驟，點進去層層都看得到。",
-              done: false,
+              done: true,
             },
             {
               text: "工作也有先後",
               desc: "build 做完 deploy 才開始，時間戳上看得出流水線的順序。",
-              done: false,
+              done: true,
               bonus: true,
             },
             {
               text: "紀錄留得下來",
               desc: "每一次執行、每一個步驟的輸出都還在，事後隨時查得到。",
-              done: false,
+              done: true,
             },
           ],
         },
