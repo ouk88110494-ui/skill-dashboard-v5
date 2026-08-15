@@ -1681,7 +1681,7 @@ window.DASHBOARD_DATA = {
         {
           no: "08",
           milestone: true,
-          title: "讓機器擋下的儀表板",
+          title: "讓機器擋下壞掉的儀表板",
           desc: "兩層檢查掛上規則集：語法錯、結構錯，都進不了 main 分支。",
         },
       ],
